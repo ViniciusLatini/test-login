@@ -5,6 +5,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+npm install
+
 npm run dev
 # or
 yarn dev
@@ -15,6 +17,7 @@ bun dev
 # run cypress test
 npx cypress open
 #run playwrite test
+npm install puppeteer
 npx playwright test
 ```
 
